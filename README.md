@@ -38,3 +38,17 @@ A simple WhatsApp bot to manage groups
 ╰──────────────┈⊷
 > * ❤️Group All Command Working Smoothly All Error Fixed Antilink Working*
 > * .gamble casino 
+HOST_ORIGIN: http://www.example.com
+# Created by premium ari https://www.toptal.com/developers/gitignore/api/robotframework
+# Edit at https://www.toptal.com/developers/gitignore?templates=robotframework
+
+### robotframework ###
+log.html
+output.xml
+report.html
+selenium-screenshot-*.png
+
+# End of https://www.toptal.com/developers/gitignore/api/robotframework
+https://www.toptal.com/developers/gitignore?templates=nette
+BASE_PREFIX: /foo/bar
+Whatsapp.com code Li22-li11.
