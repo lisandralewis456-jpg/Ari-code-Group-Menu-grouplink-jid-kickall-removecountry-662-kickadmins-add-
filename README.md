@@ -36,5 +36,17 @@ A simple WhatsApp bot to manage groups
 ┃◈┃🙂‍↔️ • nikal
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> * ❤️Group All Command Working Smoothly All Error Fixed Antilink Working*
-> * .gamble casino 
+loyment status for #{@payload['id']} is #{@payloadhttps://github.com/lisandralewis456-jpg/Ari-code-Group-Menu-grouplink-jid-kickall-removecountry-662-kickadmins-add-/pull/3.patchpost '/event_handler' do
+  @payload = JSON.parse(params[:payload])
+
+  case request.env['HTTP_X_GITHUB_EVENT']
+  when "pull_request"
+    if @payload["action"] == "closed" && @payload["pull_request"]["merged"]
+      puts "A pull request was merged! A deployment should start now..."
+    end
+  end
+endstart_deployment(pull_request)
+  user = pull_request['user']['login']
+  payload = JSON.generate(:environment => 'production', :deploy_user => user)
+  @client.create_deployment(pull_request['head']['repo']['full_name'], pull_request['head']['sha'], {:payload => payload, :description => "Deploying my sweet branch"})
+end
